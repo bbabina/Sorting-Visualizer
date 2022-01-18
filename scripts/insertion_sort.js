@@ -18,14 +18,14 @@ function Insertion()
             div_update(divs[i],div_sizes[i],"red");//Height update
             div_update(divs[i+1],div_sizes[i+1],"red");//Height update
     
-            div_update(divs[i],div_sizes[i],"blue");//Color update
+            div_update(divs[i],div_sizes[i],"#658E9C");//Color update
             if(i==(j-1))
             {
                 div_update(divs[i+1],div_sizes[i+1],"yellow");//Color update
             }
             else
             {
-                div_update(divs[i+1],div_sizes[i+1],"blue");//Color update
+                div_update(divs[i+1],div_sizes[i+1],"#658E9C");//Color update
             }
             i-=1;
         }

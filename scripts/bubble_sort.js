@@ -20,7 +20,7 @@ function Bubble()
                 div_update(divs[j],div_sizes[j], "red");//Height update
                 div_update(divs[j+1],div_sizes[j+1], "red");//Height update
             }
-            div_update(divs[j],div_sizes[j], "blue");//Color update
+            div_update(divs[j],div_sizes[j], "#658E9C");//Color update
         }
         div_update(divs[j],div_sizes[j], "green");//Color update
     }
